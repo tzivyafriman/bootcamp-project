@@ -3,13 +3,13 @@ import React, { useContext, useEffect, useState } from "react";
 
 const Houzzebodcamp = (props) => {
 
-    const location = useLocation();
-    const [currentFood, setCurrentFood] = useState();
+    // const location = useLocation();
+    // const [currentFood, setCurrentFood] = useState();
     
 
-    useEffect(() => {
-        setCurrentFood(location.state);
-    }, [location.state])
+    // useEffect(() => {
+    //     setCurrentFood(location.state);
+    // }, [location.state])
 
     return (
         <div>
